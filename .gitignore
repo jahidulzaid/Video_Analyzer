@@ -1,0 +1,93 @@
+# .gitignore for the "video analyze" project
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+dist/
+downloads/
+*.egg-info/
+.installed.cfg
+pip-wheel-metadata/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+
+# Virtual environments
+venv/
+venv*/
+ENV/
+env/
+env.bak/
+.venv/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment variables and secrets
+.env
+.env.*.local
+secrets.json
+
+# Logs and reports
+logs/
+*.log
+
+# Databases
+*.sqlite3
+*.db
+
+# Media and large artifacts (project-specific)
+data/**/*.mp4
+data/**/*.mov
+data/**/*.avi
+data/**/*.mkv
+data/**/*.zip
+model/*.pt
+model/*.pth
+model/*.h5
+outputs/
+tmp/
+
+# Jupyter
+.ipynb_checkpoints
+*.ipynb
+
+# mypy
+.mypy_cache/
+
+# Misc
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore any local wheel builds
+*.whl
+
+# End of .gitignore
