@@ -35,8 +35,8 @@ The API samples frames densely based on video length (one frame per `seconds_per
 ## Configuration
 
 - `OPENAI_API_KEY`: required for the OpenAI client.
-- `MODEL_NAME`: override via environment to change the model (defaults to `gpt-4.1`).
-- `FRAME_SAMPLES`: minimum frames to sample from each video (defaults to 24).
+- `OPENAI_MODEL`: override via environment to change the model (defaults to `gpt-4.1-mini`).
+- `FRAME_SAMPLES`: minimum frames to sample from each video (defaults to 20).
 - `SECONDS_PER_FRAME`: target interval between samples; long videos collect more frames (defaults to 2.0s).
 - `MAX_FRAME_SAMPLES`: upper bound on frames sent to the model to stay under payload limits (defaults to 120).
-- `MAX_TOKENS`: cap the response size (defaults to 800 for richer descriptions).
+- `MAX_TOKENS`: cap the response size (defaults to 5000 for richer descriptions).
