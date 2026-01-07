@@ -52,7 +52,7 @@ class VideoAnalyzer:
 
         completion = await asyncio.to_thread(
             self.client.chat.completions.create,
-            model=self.settings.model_name,
+            model=self.settings.openai_model,
             messages=messages,
             max_tokens=self.settings.max_tokens,
         )
@@ -61,7 +61,7 @@ class VideoAnalyzer:
         return VideoAnalysisResponse(
             summary=content or "",
             frames_used=len(frames),
-            model=self.settings.model_name,
+            model=self.settings.openai_model,
             frame_timestamps=[f.timestamp_sec for f in frames if f.timestamp_sec is not None],
             prompt=user_instruction,
             total_frames=metadata.frame_count or None,
