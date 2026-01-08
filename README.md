@@ -46,6 +46,7 @@ The API samples frames densely based on video length (one frame per `seconds_per
 - Input: sample_video.mp4
 <video
   src="sample_video.mp4"
+  controls
   autoplay
   muted
   loop
