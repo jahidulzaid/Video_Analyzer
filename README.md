@@ -40,3 +40,20 @@ The API samples frames densely based on video length (one frame per `seconds_per
 - `SECONDS_PER_FRAME`: target interval between samples; long videos collect more frames (defaults to 2.0s).
 - `MAX_FRAME_SAMPLES`: upper bound on frames sent to the model to stay under payload limits (defaults to 120).
 - `MAX_TOKENS`: cap the response size (defaults to 5000 for richer descriptions).
+
+## Sample input/output
+
+- Input: sample_video.mp4
+<video
+  src="sample_video.mp4"
+  autoplay
+  muted
+  loop
+  playsinline
+  width="800">
+</video>
+- Output: see `sample_Output.json` for the full JSON (summary, frame timestamps, model info, token caps). Example summary excerpt:
+  ```
+  "The video appears to be a highlight ... Nottingham Forest and Manchester City ... final result: Nottingham Forest 1, Manchester City 2."
+  ```
+- Note: run with MP4 to reproduce similar outputs.
