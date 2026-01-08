@@ -43,7 +43,7 @@ The API samples frames densely based on video length (one frame per `seconds_per
 
 ## Sample input/output
 
-- Input: [sample_video.mp4](https://github.com/jahidulzaid/Video_Analyzer/raw/refs/heads/main/sample_video.mp4)
+- Input: [[sample_video.mp4](https://github.com/jahidulzaid/Video_Analyzer/raw/refs/heads/main/sample_video.mp4)](https://raw.githubusercontent.com/jahidulzaid/Video_Analyzer/refs/heads/main/sample_video.mp4)
 <video
   src="sample_video.mp4"
   controls
