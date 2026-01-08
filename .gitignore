@@ -16,6 +16,8 @@ downloads/
 *.egg-info/
 .installed.cfg
 pip-wheel-metadata/
+POST.md
+tmp
 
 # Installer logs
 pip-log.txt
