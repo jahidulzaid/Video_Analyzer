@@ -43,7 +43,7 @@ The API samples frames densely based on video length (one frame per `seconds_per
 
 ## Sample input/output
 
-- Input: sample_video.mp4
+- Input: [sample_video.mp4](https://github.com/jahidulzaid/Video_Analyzer/raw/refs/heads/main/sample_video.mp4)
 <video
   src="sample_video.mp4"
   controls
@@ -53,6 +53,7 @@ The API samples frames densely based on video length (one frame per `seconds_per
   playsinline
   width="800">
 </video>
+
 - Output: see `sample_Output.json` for the full JSON (summary, frame timestamps, model info, token caps). Example summary excerpt:
   ```
   "The video appears to be a highlight ... Nottingham Forest and Manchester City ... final result: Nottingham Forest 1, Manchester City 2."
