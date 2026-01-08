@@ -57,4 +57,4 @@ The API samples frames densely based on video length (one frame per `seconds_per
   ```
   "The video appears to be a highlight ... Nottingham Forest and Manchester City ... final result: Nottingham Forest 1, Manchester City 2."
   ```
-- Note: run with MP4 to reproduce similar outputs.
+- Note: run with MP4 to reproduce similar outputs
